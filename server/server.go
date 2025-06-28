@@ -1,10 +1,10 @@
 package server
 
 import (
-	"github.com/byebyebruce/lockstepserver/logic"
-	"github.com/byebyebruce/lockstepserver/pkg/kcp_server"
-	"github.com/byebyebruce/lockstepserver/pkg/network"
-	"github.com/byebyebruce/lockstepserver/pkg/packet/pb_packet"
+	"github.com/hustuhao/lockstepserver/logic"
+	"github.com/hustuhao/lockstepserver/pkg/kcp_server"
+	"github.com/hustuhao/lockstepserver/pkg/network"
+	"github.com/hustuhao/lockstepserver/pkg/packet/pb_packet"
 )
 
 // LockStepServer 帧同步服务器

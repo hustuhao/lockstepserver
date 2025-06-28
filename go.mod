@@ -1,4 +1,4 @@
-module github.com/byebyebruce/lockstepserver
+module github.com/hustuhao/lockstepserver
 
 go 1.23.0
 

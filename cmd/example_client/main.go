@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/byebyebruce/lockstepserver/pb"
-	"github.com/byebyebruce/lockstepserver/pkg/packet/pb_packet"
+	"github.com/hustuhao/lockstepserver/pb"
+	"github.com/hustuhao/lockstepserver/pkg/packet/pb_packet"
 	"google.golang.org/protobuf/proto"
 
 	"github.com/xtaci/kcp-go"

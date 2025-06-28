@@ -5,9 +5,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/byebyebruce/lockstepserver/logic/game"
-	"github.com/byebyebruce/lockstepserver/pkg/network"
-	"github.com/byebyebruce/lockstepserver/pkg/packet/pb_packet"
+	"github.com/hustuhao/lockstepserver/logic/game"
+	"github.com/hustuhao/lockstepserver/pkg/network"
+	"github.com/hustuhao/lockstepserver/pkg/packet/pb_packet"
 
 	l4g "github.com/alecthomas/log4go"
 )

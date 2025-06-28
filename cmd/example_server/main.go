@@ -8,9 +8,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/byebyebruce/lockstepserver/cmd/example_server/api"
-	"github.com/byebyebruce/lockstepserver/pkg/log4gox"
-	"github.com/byebyebruce/lockstepserver/server"
+	"github.com/hustuhao/lockstepserver/cmd/example_server/api"
+	"github.com/hustuhao/lockstepserver/pkg/log4gox"
+	"github.com/hustuhao/lockstepserver/server"
 
 	l4g "github.com/alecthomas/log4go"
 )

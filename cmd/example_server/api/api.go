@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/byebyebruce/lockstepserver/logic"
+	"github.com/hustuhao/lockstepserver/logic"
 )
 
 //go:embed index.html
