@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package testdata;
-option go_package = "github.com/byebyebruce/lockstepserver/pkg/packet/pb_packet/testdata;testdata";
+option go_package = "github.com/hustuhao/lockstepserver/pkg/packet/pb_packet/testdata;testdata";
 
 
 //消息ID

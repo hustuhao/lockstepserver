@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package pb;
-option go_package = "github.com/byebyebruce/lockstepserver/pb;pb";
+option go_package = "github.com/hustuhao/lockstepserver/pb;pb";
 
 
 //消息ID
