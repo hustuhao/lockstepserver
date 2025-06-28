@@ -7,7 +7,7 @@ import (
 
 	l4g "github.com/alecthomas/log4go"
 	"github.com/byebyebruce/lockstepserver/pkg/network"
-	"github.com/golang/protobuf/proto"
+	"google.golang.org/protobuf/proto"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 
 	"github.com/byebyebruce/lockstepserver/pb"
 	"github.com/byebyebruce/lockstepserver/pkg/packet/pb_packet"
-	"github.com/golang/protobuf/proto"
+	"google.golang.org/protobuf/proto"
 
 	"github.com/xtaci/kcp-go"
 )

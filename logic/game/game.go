@@ -6,7 +6,7 @@ import (
 	"github.com/byebyebruce/lockstepserver/pb"
 	"github.com/byebyebruce/lockstepserver/pkg/network"
 	"github.com/byebyebruce/lockstepserver/pkg/packet/pb_packet"
-	"github.com/golang/protobuf/proto"
+	"google.golang.org/protobuf/proto"
 
 	l4g "github.com/alecthomas/log4go"
 )

@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/byebyebruce/lockstepserver/pkg/packet/pb_packet/testdata"
-	"github.com/golang/protobuf/proto"
+	"google.golang.org/protobuf/proto"
 )
 
 func Test_SCPacket(t *testing.T) {
