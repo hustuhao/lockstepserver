@@ -1,0 +1,46 @@
+// pb/snake/snake.proto
+syntax = "proto3";
+
+package pb.snake;
+option go_package = "github.com/hustuhao/lockstepserver/pb/snake;snake";
+
+// 贪吃蛇移动方向
+enum SnakeDirection {
+  UP = 0;
+  DOWN = 1;
+  LEFT = 2;
+  RIGHT = 3;
+}
+
+// 客户端发送的贪吃蛇操作输入消息
+message C2S_SnakeInputMsg {
+  SnakeDirection direction = 1; // 蛇的移动方向
+}
+
+// 蛇的状态
+message SnakeState {
+  uint64 id = 1; // 蛇的ID
+  repeated int32 positions = 2; // 蛇的身体位置
+  SnakeDirection direction = 3; // 蛇的移动方向
+}
+
+// 食物的状态
+message FoodState {
+  int32 x = 1; // 食物的x坐标
+  int32 y = 2; // 食物的y坐标
+}
+
+// 服务端广播的贪吃蛇帧数据
+message S2C_SnakeFrameMsg {
+  uint32 frame_id = 1; // 帧ID
+  repeated SnakeState snakes = 2; // 所有蛇的状态
+  repeated FoodState foods = 3; // 所有食物的状态
+}
+
+// 消息ID
+enum ID {
+  ID_MSG_BEGIN = 0;
+  ID_MSG_SnakeInput = 1; // 贪吃蛇操作输入
+  ID_MSG_SnakeFrame = 2; // 贪吃蛇帧数据
+  ID_MSG_END = 255;
+}
